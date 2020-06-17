@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,7 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="container">
+  <header id="header">
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Welcome to my tribute page</a>
       <button
@@ -42,13 +43,37 @@
         </ul>
       </div>
     </nav>
+  </header>
+
+  <body class="container" id="main">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
     <div class="main">
       <div class="d-flex justify-content-start info">
-        <h2>tatis facere, labore tempore quibusdam?</h2>
+        <h2 id="title">tatis facere, labore tempore quibusdam?</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
           quae earum sed. Soluta recusandae,
         </p>
+      </div>
+      <div id="img-div">
+        <img
+          src="https://praad.gov.gh/wp-content/uploads/2019/03/John-Mahama-678x381.jpg"
+          alt=""
+          id="image"
+          width="100%"
+        />
+        <p id="img-caption">
+          my photo
+        </p>
+      </div>
+      <div id="tribute-info">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium,
+        maiores quia? Obcaecati minus reprehenderit voluptatem, vero quis,
+        repellat odio perferendis fugit vel modi inventore id, rerum sint
+        quisquam. Facilis,<a href="#" id="tribute-link" target="_blank"
+          >ipsam!</a
+        >
       </div>
       <div class="d-flex justify-content-center more">
         <div class="card" style="width: 18rem;">
